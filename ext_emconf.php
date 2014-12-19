@@ -3,7 +3,7 @@
 /***************************************************************
  * Extension Manager/Repository config file for ext "lightboxgallery".
  *
- * Auto generated 19-12-2014 14:03
+ * Auto generated 18-12-2014 19:00
  *
  * Manual updates:
  * Only the data in the array - everything else is removed by next
@@ -14,7 +14,7 @@ $EM_CONF[$_EXTKEY] = array (
 	'title' => 'Lightbox Gallery',
 	'description' => 'Scans a folder for image files and displays them as a lightbox gallery.',
 	'category' => 'plugin',
-	'version' => '2.0.2',
+	'version' => '2.0.2_dev',
 	'state' => 'stable',
 	'uploadfolder' => false,
 	'createDirs' => '',
@@ -22,18 +22,18 @@ $EM_CONF[$_EXTKEY] = array (
 	'author' => 'Lars Ebert',
 	'author_email' => 'info@advitum.de',
 	'author_company' => 'Advitum.de',
-	'constraints' => 
+	'constraints' =>
 	array (
-		'depends' => 
+		'depends' =>
 		array (
 			'typo3' => '4.5.0-6.2.99',
 			'extbase' => '1.3.4',
 			'fluid' => '1.3.1',
 		),
-		'conflicts' => 
+		'conflicts' =>
 		array (
 		),
-		'suggests' => 
+		'suggests' =>
 		array (
 		),
 	),

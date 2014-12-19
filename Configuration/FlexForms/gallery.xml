@@ -59,7 +59,19 @@
 								</items>
 							</config>
 						</TCEforms>
-					</settings.sorting>  
+					</settings.sorting>
+					<settings.previewcount>
+						<TCEforms>
+							<label>Prewiev count (0 or empty means no limit)</label>
+							<config>
+								<type>input</type>
+								<size>4</size>
+								<eval>int</eval>
+								<clear>true</clear>
+								<default>0</default>
+							</config>
+						</TCEforms>
+					</settings.previewcount>
 				</el>
 			</ROOT>
 		</sGallery>
