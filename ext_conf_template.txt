@@ -1,0 +1,14 @@
+# cat=basic; type=string; label=Thumbnail parameters:The thumbnails will be resized and cropped according to this parameters. For example w100-h100 will resize the thumbnails to a maximum width and height of 100 pixels, w100-h100-c will additionally crop the images so they have an exact width and height of 100px. Leave this empty and the images will not be processed.
+thumbnailParameters = w150-h150-c
+
+# cat=basic; type=string; label=Full size parameters:The full size images will be resized and cropped according to this parameters. For example w100-h100 will resize the images to a maximum width and height of 100 pixels, w100-h100-c will additionally crop the images so they have an exact width and height of 100px. Leave this empty and the images will not be processed.
+fullsizeParameters = 
+
+#cat=basic; type=boolean; label=Include jQuery:Whether or not to include jQuery. Disable this if you are including jQuery manually or via another extension.
+includeJQuery = 1
+
+#cat=basic; type=boolean; label=Include FancyBox:Whether or not to include FancyBox. If you disable this option, the full size images will open in a new window instead of a lightbox.
+includeFancybox = 1
+
+#cat=basic; type=options[natural,naturaldesc,alphabetical,alphabeticaldesc,date,datedesc]; label=Default sorting:How are the images sorted? This can be overwritten for each individual plugin instance.
+sorting = natural
