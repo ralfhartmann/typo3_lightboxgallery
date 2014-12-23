@@ -31,6 +31,7 @@
 			}
 
 			$config['previewcount'] = $this->settings['previewcount']?:$config['previewcount'];
+			$config['thumbnailParameters'] = $this->settings['thumbnailParameters']?:$config['thumbnailParameters'];
 
 			$headerData = array();
 
@@ -107,7 +108,6 @@
 				$images[$index] = $image;
 				$count++;
 			}
-
 
 			$this->view->assign('hash', md5($folder));
 			$this->view->assign('images', $images);
